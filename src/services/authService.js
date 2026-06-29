@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
 import { USER_ROLES, USER_STATUS, WALLET_TYPES } from '../shared/constants.js';
-import { requiredString } from '../shared/validation.js';
+import { optionalString, requiredString } from '../shared/validation.js';
 import { assertApp } from '../lib/errors.js';
 import { makeId, nowIso } from '../lib/id.js';
 import { hashPassword, verifyPassword } from '../lib/passwords.js';
