@@ -51,9 +51,9 @@ export function register(state, input) {
   topUp(state, {
     userId: user.id,
     walletType: WALLET_TYPES.FUTURES,
-    amount: 50000,
+    amount: 10,
     actorId: 'system',
-    reason: 'New demo account futures balance'
+    reason: 'New account futures balance'
   });
   topUp(state, {
     userId: user.id,
