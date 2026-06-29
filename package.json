@@ -1,0 +1,19 @@
+{
+  "name": "bainan-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bainan API server.",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "bainan-futures-demo": "file:..",
+    "mongodb": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
